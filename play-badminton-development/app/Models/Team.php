@@ -24,5 +24,7 @@ class Team extends Model
     {
         return $this->belongsToMany(Event::class, 'event_teams');
     }
+
+    
 }
 
